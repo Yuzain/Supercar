@@ -1,0 +1,31 @@
+// Shift Register 16 bit wide 
+module shr_10	(
+				input 			CLK,
+				input				CE,
+				input				reset,
+				input				load,
+				input				Sin,
+				input 	[ 9:0 ]	Pin,
+				output 	[ 9:0 ]	Pout,
+				output				Sout
+				);
+
+reg [9:0] M;
+
+always @(posedge CLK or negedge reset)
+begin
+	if( !reset )
+	begin
+		M <= 10'b0000000001;
+	end
+	else if (CE)
+	begin
+		if (load)	M <= Pin; 
+		else 		M <= {Sin,M[9:1]};
+	end
+end
+
+assign Pout = M;
+assign Sout = M[0];
+
+endmodule

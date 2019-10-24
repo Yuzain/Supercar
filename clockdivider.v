@@ -1,0 +1,20 @@
+module clockdivider	(
+					input clock_in,
+					output reg clock_out
+							);
+
+reg [31:0] counter = 32'b0;
+parameter FREQ_DIV = 32'd50000000; //clock_in/divider = clock_out
+
+always @(posedge clock_in)
+begin
+	counter = counter+1;
+	if(counter >= FREQ_DIV-1)
+		begin
+		counter <= 32'b0;
+		clock_out <= 1'b1;
+		end
+	else clock_out <= 1'b0;
+end
+
+endmodule

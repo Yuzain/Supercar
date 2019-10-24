@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.616
+TNS   : -325.828
+
+Type  : Slow 1100mV 85C Model Setup 'clockdivider2:clk10hz|clock_out'
+Slack : -3.197
+TNS   : -53.792
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clockdivider2:clk10hz|clock_out'
+Slack : 0.736
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.452
+TNS   : -41.907
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clockdivider2:clk10hz|clock_out'
+Slack : -0.394
+TNS   : -10.997
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.669
+TNS   : -327.987
+
+Type  : Slow 1100mV 0C Model Setup 'clockdivider2:clk10hz|clock_out'
+Slack : -3.340
+TNS   : -57.067
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clockdivider2:clk10hz|clock_out'
+Slack : 0.725
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.467
+TNS   : -45.106
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clockdivider2:clk10hz|clock_out'
+Slack : -0.394
+TNS   : -11.031
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.179
+TNS   : -152.061
+
+Type  : Fast 1100mV 85C Model Setup 'clockdivider2:clk10hz|clock_out'
+Slack : -1.502
+TNS   : -24.699
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clockdivider2:clk10hz|clock_out'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.469
+TNS   : -7.482
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clockdivider2:clk10hz|clock_out'
+Slack : -0.004
+TNS   : -0.044
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.953
+TNS   : -136.974
+
+Type  : Fast 1100mV 0C Model Setup 'clockdivider2:clk10hz|clock_out'
+Slack : -1.490
+TNS   : -24.804
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clockdivider2:clk10hz|clock_out'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.462
+TNS   : -7.395
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clockdivider2:clk10hz|clock_out'
+Slack : 0.027
+TNS   : 0.000
+
+------------------------------------------------------------

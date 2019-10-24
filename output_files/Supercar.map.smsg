@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at clockdivider.v(9): always construct contains both blocking and non-blocking assignments File: /home/riccardo/Documenti/Esercizio_1110/clockdivider.v Line: 9
+Warning (10268): Verilog HDL information at clockdivider2.v(9): always construct contains both blocking and non-blocking assignments File: /home/riccardo/Documenti/Esercizio_1110/clockdivider2.v Line: 9
